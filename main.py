@@ -19,6 +19,7 @@ def main():
     """
     # Set up the device (GPU or CPU)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print("Device is ", device)
     
     # Initialize the tokenizer from the pre-trained BERT model
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
@@ -83,7 +84,7 @@ def main():
     for item in post_fine_tune_metrics:
         print(f"{item}: ", post_fine_tune_metrics[item])
 
-        
+
 # Check if this script is executed as the main program and run the main function
 if __name__ == "__main__":
     main()
