@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from sklearn.metrics import  f1_score, recall_score, precision_score, classification_report
-
+import os
 
 def save_model(model, name):
     """
@@ -11,6 +11,8 @@ def save_model(model, name):
     model (torch.nn.Module): The model to be saved.
     name (str): The name of the file to save the model state dictionary.
     """
+    if not os.path.exists("models"):
+        os.makedirs("models")
     # Save the model's state dictionary under the 'models/' directory
     torch.save(model.state_dict(), f"models/{name}")
     print("Model saved.")  # Confirmation message
