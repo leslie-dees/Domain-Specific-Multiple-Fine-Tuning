@@ -1,5 +1,7 @@
 import torch
 import numpy as np
+from sklearn.metrics import  f1_score, recall_score, precision_score, classification_report
+
 
 def save_model(model, name):
     """
@@ -67,3 +69,56 @@ def evaluate_model(model, dataloader, device):
 
     # Compute the average accuracy across all batches
     return total_eval_accuracy / len(dataloader)
+
+def full_model_evaluation(model, dataloader, device):
+    """
+    Evaluate the model's performance on a dataset using all available binary metrics.
+
+    Parameters:
+    model (torch.nn.Module): The model to be evaluated.
+    dataloader (torch.utils.data.DataLoader): The DataLoader containing the evaluation dataset.
+    device (torch.device): The device to perform the evaluation on.
+
+    Returns:
+    dict: A dictionary containing accuracy, F1 score, recall, precision, and individual class metrics.
+    """
+    model.eval()  # Set the model to evaluation mode
+    all_preds = []
+    all_labels = []
+
+    # Iterate over all batches in the provided DataLoader
+    for batch in dataloader:
+        # Move batch data to the device
+        batch = tuple(t.to(device) for t in batch)
+        # Unpack the batch data
+        b_input_ids, b_input_mask, b_labels = batch
+
+        # Disable gradient computation for evaluation
+        with torch.no_grad():
+            # Get model predictions for the current batch
+            logits = model(b_input_ids, attention_mask=b_input_mask)
+
+        # Move logits and labels to CPU for further operations
+        logits = logits.detach().cpu().numpy()
+        label_ids = b_labels.to('cpu').numpy()
+
+        # Append predictions and labels for the entire dataset
+        all_preds.extend(logits)
+        all_labels.extend(label_ids)
+
+    # Calculate metrics
+    accuracy = flat_accuracy(np.array(all_preds), np.array(all_labels))
+    f1 = f1_score(np.array(all_labels), np.argmax(np.array(all_preds), axis=1), average='weighted')
+    recall = recall_score(np.array(all_labels), np.argmax(np.array(all_preds), axis=1), average='weighted')
+    precision = precision_score(np.array(all_labels), np.argmax(np.array(all_preds), axis=1), average='weighted')
+    class_report = classification_report(np.array(all_labels), np.argmax(np.array(all_preds), axis=1))
+
+    metrics = {
+        'accuracy': accuracy,
+        'f1_score': f1,
+        'recall': recall,
+        'precision': precision,
+        'class_report': class_report
+    }
+
+    return metrics
