@@ -6,7 +6,7 @@ from constants import EPOCHS
 from scripts.make_dataset import get_data_loaders
 from scripts.model import get_base_model, predict_on_example
 from setup import fine_tune_model_on_data_loaders
-from util import evaluate_model, save_model
+from util import save_model, full_model_evaluation
 
 # Define example sentences to use for prediction before and after fine-tuning
 EXAMPLE_SENTENCE_1 = "The company reported better than expected results."
@@ -19,6 +19,7 @@ def main():
     """
     # Set up the device (GPU or CPU)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print("Device is ", device)
     
     # Initialize the tokenizer from the pre-trained BERT model
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
@@ -51,13 +52,15 @@ def main():
         f"Prediction before fine-tuning: {prediction_without_fine_tuning}\nProbabilities: {probabilities_without_fine_tuning}"
     )
     
-    # Calculate the accuracy of the model before fine-tuning on the validation set
-    pre_fine_tune_accuracy = evaluate_model(
+    # Evaluate of the model before fine-tuning on the validation set
+    pre_fine_tune_metrics = full_model_evaluation(
         model_without_fine_tuning,
         validation_loader,
         device
     )
-    print(f'Accuracy before fine-tuning: {pre_fine_tune_accuracy:.4f}')
+    print("Metrics before fine-tuning")
+    for item in pre_fine_tune_metrics:
+        print(f"{item}: ", pre_fine_tune_metrics[item])
 
     # Evaluate the model after fine-tuning using the same example sentences
     probabilities_with_fine_tuning, prediction_with_fine_tuning = predict_on_example(
@@ -71,13 +74,16 @@ def main():
         f"Prediction after fine-tuning: {prediction_with_fine_tuning}\nProbabilities: {probabilities_with_fine_tuning}"
     )
     
-    # Calculate the accuracy of the fine-tuned model on the validation set
-    post_fine_tune_accuracy = evaluate_model(
+    # Evaluate of the fine-tuned model on the validation set
+    post_fine_tune_metrics = full_model_evaluation(
         model_after_fine_tuning,
         validation_loader,
         device
     )
-    print(f'Accuracy after fine-tuning: {post_fine_tune_accuracy:.4f}')
+    print("Post fine tune metrics")
+    for item in post_fine_tune_metrics:
+        print(f"{item}: ", post_fine_tune_metrics[item])
+
 
 # Check if this script is executed as the main program and run the main function
 if __name__ == "__main__":

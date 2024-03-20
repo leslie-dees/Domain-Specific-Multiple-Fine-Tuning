@@ -65,7 +65,20 @@ jupyter notebook notebooks/model_fine_tuning.ipynb
 - To train on your own data, update the data loading mechanism in `scripts/make_dataset.py`.
 - The model architecture can be adjusted in `scripts/model.py`.
 
-## Accuracy
+## Evaluation
 
-Before fine-tuning, the model achieves an accuracy of `0.6467`.
-After fine-tuning, the model achieves an accuracy of `0.8193`.
+- Prior to fine tuning
+    * Accuracy:     0.6485
+    * F1-score:     0.5102
+    * Recall:       0.6485
+    * Precision:    0.4206
+- Post fine tuning
+    * Accuracy:     0.7629
+    * F1-score:     0.7420
+    * Recall:       0.7629
+    * Precision:    0.7685
+
+- Semantic Text Similarity Benchmark (STS test) evaluated against our model for Pearson correlation of sentences with range of 1-5 semantic similarity. Adjusted values to be rounded to 0 or 1 to match against our predictions for further examination.
+    * Raw correlation calculated at 0.215
+    * Adjusted correlation 0.182
+
