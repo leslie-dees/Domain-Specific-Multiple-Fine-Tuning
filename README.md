@@ -6,19 +6,23 @@ This project focuses on fine-tuning a pre-trained BERT model for sequence classi
 ```
 .
 ├── README.md
-├── constants.py - Constants used across the project.
-├── main.py - The main script to run for training and evaluating the model.
-├── models
-│ ├── model.pt - Pre-trained or fine-tuned model weights.
-| └── model_fine_tuned.pt - Fine-tuned model weights.
+├── data
+│   ├── processed
+│   │   └── medicalCorpus.csv
+│   └── raw
+│       └── medicalCorpus.txt
 ├── notebooks
-│ └── model_fine_tuning.ipynb - Jupyter notebook for interactive model fine-tuning.
-├── requirements.txt - Required libraries and dependencies.
-├── scripts
-│ ├── make_dataset.py - Script for data preparation and loading.
-│ └── model.py - Script defining the model architecture and utilities.
-├── setup.py - Setup script for installing the project as a package.
-└── util.py - Utility functions used across the project.
+│   ├── data_file.ipynb
+│   ├── evaluation.ipynb
+│   └── mode_fine_tuning.ipynb
+├── requirements.txt
+└── scripts
+    ├── constants.py
+    ├── main.py
+    ├── make_dataset.py
+    ├── model.py
+    ├── setup.py
+    └── util.py
 ```
 
 ## Setup
@@ -66,7 +70,7 @@ jupyter notebook notebooks/model_fine_tuning.ipynb
 - The model architecture can be adjusted in `scripts/model.py`.
 
 ## Evaluation
-
+### GLUE-MRPC
 - Prior to fine tuning
     * Accuracy:     0.6485
     * F1-score:     0.5102
@@ -78,7 +82,12 @@ jupyter notebook notebooks/model_fine_tuning.ipynb
     * Recall:       0.7629
     * Precision:    0.7685
 
-- Semantic Text Similarity Benchmark (STS test) evaluated against our model for Pearson correlation of sentences with range of 1-5 semantic similarity. Adjusted values to be rounded to 0 or 1 to match against our predictions for further examination.
-    * Raw correlation calculated at 0.215
-    * Adjusted correlation 0.182
-
+### Medical Domain Dataset
+- Base Model
+    * F1-score: 0.599
+- Medical Fine-tuned:
+    * F1-score: 0.601
+- GLUE-MRPC Fine-tuned:
+    * F1-score: 0.655
+- Multiple Fine-tuned:
+    * F1-score: 0.750
