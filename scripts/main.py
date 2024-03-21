@@ -4,8 +4,8 @@ import pandas as pd
 # Local imports
 from constants import TOKENIZER_MAX_LENGTH
 from datasets import load_dataset
-from scripts.make_dataset import get_data_loaders
-from scripts.model import get_base_model
+from make_dataset import get_data_loaders
+from model import get_base_model
 from setup import training_model
 
 # Define example sentences to use for prediction before and after fine-tuning
@@ -30,7 +30,7 @@ def main():
     # Direct Fine Tuning: Approach 1
     # Load the data
     # Load and preprocess the MRPC dataset
-    df = pd.read_csv('Project-1-AIPI590/data/processed/medicalCorpus.csv')
+    df = pd.read_csv('data/processed/medicalCorpus.csv')
     print(df)
     # Tokenize sentences
     texts = [(tokenizer(example['Sentence_1'], example['Sentence_2'], truncation=True, padding='max_length', max_length=128), example['Paraphrase_Indicator']) for index, example in df.iterrows()]

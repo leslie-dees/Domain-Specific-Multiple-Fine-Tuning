@@ -2,7 +2,7 @@ import torch.nn as nn
 from tqdm import tqdm
 from transformers import AdamW, get_linear_schedule_with_warmup
 from util import save_model, full_model_evaluation
-from scripts.model import predict_on_example
+from model import predict_on_example
 from constants import EPSILON, LEARNING_RATE, WARMUP_STEPS, EPOCHS
 
 
