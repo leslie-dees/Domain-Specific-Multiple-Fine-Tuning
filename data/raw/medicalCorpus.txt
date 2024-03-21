@@ -1,0 +1,340 @@
+1 The patient exhibited symptoms of chronic fatigue and muscle pain. The patient showed signs of persistent tiredness and myalgia.
+1 Blood tests indicate an elevated white blood cell count, suggestive of an infection. The results of the blood test show increased levels of leukocytes, pointing to a possible infection.
+0 The individual has been diagnosed with Type 2 diabetes and requires insulin therapy. The individual has been diagnosed with Type 1 diabetes and requires daily insulin injections.
+1 MRI scans revealed the presence of multiple sclerosis plaques in the brain. Magnetic Resonance Imaging displayed multiple sclerosis lesions within the cerebral area.
+1 The patient complained of experiencing severe headaches primarily in the morning. The patient reported having intense migraines mostly during the morning hours.
+0 Treatment for the condition includes administration of antiviral medications. Management of the disease involves lifestyle changes and dietary adjustments.
+1 He is undergoing chemotherapy for the treatment of lung cancer. He is receiving chemotherapeutic agents to combat lung carcinoma.
+1 The subject has a history of atrial fibrillation and is on blood thinners. The individual has a medical background of irregular heartbeats and takes anticoagulants.
+0 Patient's ultrasound showed a healthy pregnancy with no complications. Patient's ultrasound indicated complications that may affect the pregnancy.
+1 Symptoms include shortness of breath, wheezing, and chest tightness. The manifestations comprise difficulty breathing, audible breathing, and pressure in the chest area.
+1 Antibiotic treatment was initiated due to the patient's bacterial pneumonia diagnosis. The patient was started on antibiotics following a diagnosis of bacterial pneumonia.
+0 The echocardiogram showed normal heart function without any defects. The echocardiogram revealed abnormalities in heart function indicating potential heart disease.
+1 Continuous positive airway pressure (CPAP) therapy was recommended for the patient's obstructive sleep apnea. The patient was advised to start CPAP treatment for their sleep apnea condition.
+1 The individual experiences allergic reactions characterized by itching and swelling when exposed to peanuts. Exposure to peanuts causes the person to suffer from itchiness and swelling due to allergies.
+0 The patient is scheduled for knee replacement surgery next month due to severe arthritis. The patient has opted for non-surgical treatments to manage arthritis instead of knee replacement.
+1 Patients with chronic kidney disease must limit their protein intake to reduce kidney workload. Individuals suffering from long-term kidney dysfunction are advised to consume less protein to ease the strain on their kidneys.
+1 The child was vaccinated against measles, mumps, and rubella according to the immunization schedule. Per the vaccination timetable, the child received immunizations for measles, mumps, and rubella.
+1 The doctor prescribed an SSRI for the treatment of the patient's depression. An SSRI was chosen by the healthcare provider to manage the patient's depressive symptoms.
+0 The diagnostic test confirmed the absence of any malignant cells in the biopsy sample. The biopsy analysis indicated the presence of cancerous cells requiring further intervention.
+1 The patient's hypertension is managed through a combination of lifestyle changes and medication. To control the patient's high blood pressure, both lifestyle modifications and pharmacological treatment are employed.
+1 The dermatologist recommended daily application of moisturizer to manage the patient's eczema. The patient was advised by the skin specialist to apply moisturizer every day to treat eczema.
+0 An MRI of the brain was ordered to rule out the possibility of a stroke. A CT scan of the brain was performed to confirm the diagnosis of a migraine.
+1 Acute appendicitis was confirmed through a computed tomography (CT) scan, necessitating surgical removal. A CT scan diagnosed the patient with acute appendicitis, requiring an appendectomy.
+1 Patients diagnosed with glaucoma are often treated with eye drops to lower intraocular pressure. Eye drops are commonly prescribed to reduce eye pressure in individuals suffering from glaucoma.
+0 The patient reported no improvement in symptoms after completing the course of antibiotics. The patient's symptoms significantly improved following the antibiotic treatment.
+1 Symptomatic relief for seasonal allergies can be achieved with over-the-counter antihistamines. Antihistamines available without a prescription can provide relief from symptoms of seasonal allergies.
+1 The individual was instructed to fast for eight hours prior to the blood glucose test. The person was told not to eat for eight hours before the blood sugar test.
+0 Following the accident, the patient was immobilized and taken to the hospital for trauma assessment. The patient received outpatient treatment and was advised to rest at home after the accident.
+1 The prognosis for early-stage breast cancer is generally favorable with proper treatment. Early-stage breast cancer usually has a good outcome when treated appropriately.
+1 Regular aerobic exercise is beneficial for patients with mild to moderate depression. Patients with mild to moderate depression may find regular aerobic physical activity helpful.
+1 The patient was diagnosed with bilateral pneumonia and started on IV antibiotics. The diagnosis for the patient was pneumonia in both lungs, and they were treated with intravenous antibiotics.
+0 The individual's cholesterol levels were significantly reduced after adopting a plant-based diet. The patient's high cholesterol levels persisted despite the switch to a plant-based diet.
+1 A laparoscopic cholecystectomy was performed due to the patient's gallstones. The patient underwent a minimally invasive surgery to remove gallstones.
+1 The neonate's jaundice was treated with phototherapy. Light therapy was used to address the newborn's yellowing of the skin.
+0 The MRI revealed a torn anterior cruciate ligament (ACL) in the patient's knee. The ultrasound scan showed no damage to the patient's anterior cruciate ligament (ACL).
+1 For acute migraine attacks, triptans can be prescribed for symptom relief. Triptans are often used to alleviate symptoms during severe migraine episodes.
+1 Peripheral neuropathy was evident from the patient's symptoms and confirmed by nerve conduction studies. Symptoms and nerve conduction tests confirmed the diagnosis of peripheral neuropathy in the patient.
+0 The patient's tuberculosis treatment included a six-month course of antibiotics. Tuberculosis in the patient was managed with a short course of steroids.
+1 Osteoarthritis in the knee joint can lead to pain and mobility issues, often treated with physical therapy. Knee osteoarthritis causes discomfort and movement difficulties, with physiotherapy being a common treatment.
+1 The patient exhibited signs of hyperthyroidism, including weight loss and palpitations. Symptoms such as palpitations and losing weight were indicative of hyperthyroidism in the patient.
+0 The electrocardiogram (ECG) test showed normal heart activity for the patient. The patient's electrocardiogram (ECG) indicated irregular heart rhythms.
+1 Pancreatitis was suspected based on the patient's severe abdominal pain and elevated enzyme levels. Based on intense stomach pain and high levels of specific enzymes, pancreatitis was the provisional diagnosis.
+1 Avoiding gluten is crucial for patients diagnosed with celiac disease to prevent damage to the small intestine. Patients with celiac disease need to eliminate gluten from their diet to avoid harming their small intestine.
+0 The patient was given a corticosteroid injection to reduce inflammation in the affected joint. To manage joint inflammation, the patient was advised to increase their fluid intake and rest.
+1 The individual is experiencing cognitive decline, likely indicative of the early stages of Alzheimer's disease. Symptoms suggest the person is in the initial phase of Alzheimer's, showing signs of reduced cognitive function.
+1 The child's ear infection is being treated with a course of amoxicillin. Amoxicillin has been prescribed to address the child's bacterial ear infection.
+0 The patient's appendicitis was managed with antibiotics, avoiding the need for surgery. Surgical removal of the appendix was necessary to treat the patient's appendicitis.
+1 Insulin resistance is a key characteristic of Type 2 diabetes, leading to elevated blood sugar levels. Type 2 diabetes involves the body's ineffective use of insulin, resulting in high glucose levels.
+1 The presence of ketones in the urine can indicate diabetic ketoacidosis, a serious complication of diabetes. Urinary ketones are a marker for diabetic ketoacidosis, which is a critical condition associated with diabetes.
+1 A low sodium diet is often recommended for patients with high blood pressure. Patients with hypertension may benefit from reducing their salt intake.
+1 Administering antipyretics is standard for managing fever in pediatric patients. Giving fever-reducing medication is common practice in treating children with elevated temperatures.
+0 The CT scan identified a benign tumor in the patient's brain. The MRI scan showed no abnormalities in the patient's brain.
+1 Patient has been complaining of intermittent episodes of vertigo over the past month. The patient reported having sporadic spells of dizziness during the last four weeks.
+1 The prognosis for patients with early detection of skin cancer is typically positive. Early-stage skin cancer patients often have a favorable outlook.
+0 Bloodwork results indicated anemia, suggesting a possible iron deficiency. Laboratory tests revealed elevated blood sugar levels, hinting at diabetes.
+1 Asthmatic patients should avoid allergens to prevent exacerbation of their symptoms. Patients with asthma are advised to steer clear of triggers to avoid worsening their condition.
+1 The use of low-dose aspirin is recommended for preventing heart attacks in individuals at risk. Taking a small amount of aspirin daily is advised for people who are at risk of heart attacks.
+0 The ultrasound examination of the gallbladder revealed gallstones. The endoscopic examination showed inflammation of the stomach lining.
+1 Dehydration was evident from the patient's dry mucous membranes and decreased skin turgor. The patient's symptoms of dehydration included dry skin and mouth.
+1 The individual was diagnosed with conjunctivitis and prescribed antibiotic eye drops. Antibiotic drops were given for the patient's pink eye diagnosis.
+0 Patient's electroencephalogram (EEG) was within normal limits. The patient's electroencephalogram (EEG) showed abnormal brain activity.
+1 Rehabilitation exercises are crucial for recovery after knee surgery. Post-operative knee surgery recovery often involves physiotherapy exercises.
+1 Excessive consumption of alcohol can lead to liver cirrhosis. Drinking too much alcohol over time may result in cirrhosis of the liver.
+0 The biopsy confirmed the malignancy of the tumor. The histological examination ruled out cancer in the tumor.
+1 Prolonged exposure to loud noises can cause permanent hearing loss. Continuous loud noise can lead to irreversible damage to hearing.
+1 The patient was advised to lose weight to help manage their type 2 diabetes. Weight loss was recommended for the patient to better control their diabetes.
+1 Cognitive behavioral therapy is effective for treating depression. Depression can be treated with cognitive behavioral therapy techniques.
+0 A regimen of antibiotics cleared the bacterial infection. The viral infection resolved without the need for antibiotics.
+1 The patient's renal function tests revealed chronic kidney disease. Tests indicated the patient has long-standing kidney disease.
+1 Observing a gluten-free diet is essential for managing celiac disease symptoms. A diet without gluten is crucial for controlling symptoms of celiac disease.
+1 Cardiovascular exercises are beneficial for improving heart health. Exercises that elevate heart rate improve cardiovascular health.
+0 The X-ray of the chest showed a fracture in the rib. The chest X-ray was clear, showing no signs of fracture or disease.
+1 Individuals suffering from insomnia often have difficulty falling asleep. People with insomnia struggle to fall asleep at night.
+1 The medication helps in reducing inflammation and relieving pain. This drug is used to alleviate pain by lowering inflammation.
+1 Wearing sunscreen can protect the skin from harmful UV radiation. Sunscreen application guards against damage from UV rays.
+0 The patient was vaccinated against hepatitis B. The patient opted not to receive the hepatitis B vaccine.
+1 Symptoms of the flu include fever, chills, and body aches. Influenza manifests with a high fever, chills, and muscle pain.
+1 Maintaining a balanced diet is key to preventing nutritional deficiencies. A diet that includes a variety of nutrients prevents deficiencies.
+1 Regular eye examinations are important for detecting glaucoma early. Early detection of glaucoma requires frequent eye checks.
+0 The patient showed signs of improvement after the new treatment was initiated. Despite the new treatment, the patient's condition continued to deteriorate.
+1 Hereditary factors can play a significant role in an individual's risk for breast cancer. Genetics may influence the likelihood of developing breast cancer.
+1 Oral rehydration salts are used to treat dehydration caused by diarrhea. Dehydration from diarrhea is treated with oral hydration solutions.
+1 The patient was experiencing hypothyroidism, characterized by fatigue and weight gain. Symptoms of underactive thyroid in the patient included tiredness and increased body weight.
+0 The patient's blood pressure readings were consistently high, indicating hypertension. Blood pressure measurements were within the normal range, showing no signs of hypertension.
+1 Antacids can provide quick relief from heartburn by neutralizing stomach acid. Taking antacids can immediately alleviate heartburn symptoms by counteracting acid in the stomach.
+1 Proper hand hygiene is crucial for preventing the spread of infectious diseases. Washing hands regularly is key to avoiding transmission of infections.
+1 The patient with bronchitis was coughing up thick mucus. Patients with bronchitis often expel dense phlegm when coughing.
+1 A sedentary lifestyle increases the risk of developing cardiovascular diseases. Lack of physical activity is associated with a higher risk of heart disease.
+0 An ophthalmologist can treat diseases related to the eye. A podiatrist specializes in treating foot conditions.
+1 Vitamin D deficiency is common in regions with limited sunlight exposure. Lack of sun exposure often leads to a deficiency in vitamin D.
+1 The person tested positive for the novel coronavirus and was advised to self-isolate. After a COVID-19 positive test, the individual was recommended to quarantine.
+1 Osteoporosis makes bones weak and more likely to break. Bones become fragile and prone to fractures with osteoporosis.
+1 Using ergonomic furniture can help in preventing back pain. Ergonomic chairs and desks are beneficial for back health.
+0 The electrocardiogram (ECG) indicated the patient was having a heart attack. The routine blood test showed elevated cholesterol levels but no signs of a heart attack.
+1 Patients on blood thinners should monitor their intake of vitamin K. Individuals taking anticoagulants need to regulate their consumption of vitamin K.
+1 Eating disorders can have serious health consequences if not treated. Untreated eating disorders can lead to critical medical issues.
+1 Bacterial infections are treated with antibiotics. Antibiotics are used to combat infections caused by bacteria.
+0 The medication caused a reduction in blood sugar levels. The drug led to an increase in the patient's appetite but not in blood sugar.
+1 Avoid touching your face to reduce the risk of viral infections. Keeping hands away from the face can prevent virus transmission.
+1 Personal protective equipment (PPE) is essential for healthcare workers to avoid infections. Healthcare professionals use PPE to protect against infection.
+1	The patient now presents with a three to four week history of shortness of breath and a dry non-productive cough .	The patient now gives a three to four week history of shortness of breath and a dry non-gainful wheeze .
+1	She was admitted to Weekscook University Medical Center with a diagnosis of possible asthma .	She was admitted to Weekscook University Medical Center with an analysis of conceivable asthma .
+0	Patient was found to be H. Pylori positive and therefore was started on empiric treatment .	Patient was found to be H. Pylori negative .
+1	She was therefore transferred to the Retelk County Medical Center for further care .	She was along these lines exchanged to the Retelk County Medical Center for additionally mind .
+1	The patient was in general good health until seven days ago ( 2/11/00 ) , when he had a sudden onset of sharp left flank pain with radiation to the lower abdomen and then to the epigastrium .	The patient was by and large great wellbeing until seven days prior ( 2/11/00 ) , when he had a sudden beginning of sharp left flank torment with radiation to the lower stomach area and afterward to the epigastrium .
+0	Afferent limb of the roux en y anastamosis was visualized however the efferent limb could not be explored .	Afferent limb of the roux en y anastamosis was visualized and the efferent limb was explored .
+1	Ri Strength is a 40 year old man with a history of GERD , who presents with abdominal pain of seven days duration .	Ri Strength is a 40 year old man with a background marked by GERD , who presents with stomach torment of seven days term .
+0	Patient was seen by GI on 13 EGD was performed HD2 which was negative for gastritis , stricture or ulcer .	Patient was seen by GI on 13 EGD was performed HD2 which was positive for gastritis.
+1	The patient was exacerbated when eating and when lying flat .	The patient was exacerbated when eating and when lying level.
+1	The patient presented to the Sloan- Center Emergency Department , where he was resuscitated with normal saline and received morphine for pain .	The patient exhibited to the Sloan-Center Emergency Department , where he was revived with typical saline and got morphine for torment .
+0	Patient had HIDA scan which was negative for obstruction , and CT was unremarkable .	Patient had HIDA scan which was positive for obstruction .
+1	He has had no recent weight loss , no light-headedness or dizziness .	He has had no current weight reduction , no wooziness or tipsiness .
+0	Patient was seen by GI on 13 EGD was performed HD2 which was negative for gastritis , stricture or ulcer .	Patient was seen by GI on 13 EGD was performed HD2 which was positive for gastritis.
+0	Patient was found to be H. Pylori positive and therefore was started on empiric treatment .	Patient was found to be H. Pylori negative .
+1	Since then , the patient has occasional chest pain with emotional stress , when he is angry or upset .	From that point forward , the patient has intermittent chest torment with passionate pressure , when he is irate or vexed .
+0	She has not received prior radiation exposure .	She has received prior radiation exposure .
+0	There is no family history of thyroid cancer .	There is no family history of diabetes .
+1	He also became short of breath with climbing a flight of stairs .	He likewise turned out to be shy of breath with climbing a flight of stairs .
+1	He has a history of hypertension , diabetes , and high cholesterol .	He has a background marked by hypertension , diabetes , and elevated cholesterol .
+0	She is euthyroid .	She is not euthyroid .
+1	Saujule Study is a 77-year-old woman with a history of obesity and hypertension who presents with increased shortness of breath x 5 days .	Saujule Study is a 77-year-old lady with a background marked by weight and hypertension who presents with expanded shortness of breath x 5 days .
+1	Her shortness of breath has been progressive over the last 2-3 years .	Her shortness of breath has been dynamic throughout the last 2-3 years .
+1	She becomes short of breath just by getting up from her chair and can only walk 2-3 steps on a flat surface .	She turns out to be shy of breath just by getting up from her seat and can just walk 2-3 stages on a level surface .
+1	They last a few seconds on the left side and are not associated with sweating , nausea , vomiting or syncope .	They keep going a couple of moments on the left side and are not related with sweating , queasiness , retching or syncope .
+0	She has no dyspnea or dysphagia .	She has dyspnea.
+1	Her lower extremity edema has increased for the several weeks prior to admission secondary to an inability to elevate her legs due to a broken chair at home .	Her lower limit edema has expanded for the few weeks before confirmation optional to a failure to lift her legs because of a broken seat at home .
+1	The patient is a 58 year old female with a history of Parkinson's disease for more than twenty years who presented to the Gemenadentoolpai Medical Center with a revolving anterolateral wall myocardial infarction on 08-01-93 .	The patient is a 58 year old female with a past filled with Parkinson's ailment for over twenty years who introduced to the Gemenadentoolpai Medical Center with a rotating anterolateral divider myocardial dead tissue on 08-01-93 .
+0	She has developed symptoms from a right lower dominant nodule with pressure discomfort in the neck .	She has developed symptoms from a left dominant nodule with pressure discomfort in the chest .
+1	Her electrocardiogram showed a new right bundle branch block and left anterior hemiblock .	Her electrocardiogram demonstrated another correct package branch square and left front hemiblock .
+0	The patient is a 51 year-old female , with a non-toxic multinodular goiter .	The patient is a 51 year-old male , with anaemia.
+1	Her hospital course was remarkable for ruling in for a myocardial infarction with a peak CPK of 9,379 units with a 5.9% MB fraction .	Her healing center course was amazing for decision in for a myocardial dead tissue with a pinnacle CPK of 9,379 units with a 5.9% MB part .
+1	In addition , on telemetry she developed complete heart block and hypotension requiring temporary pacing wire and then a permanent pacemaker implantation on 08-03-93 .	What's more , on telemetry she created finish heart piece and hypotension requiring transitory pacing wire and afterward a changeless pacemaker implantation on 08-03-93 .
+0	Patient was tolerating regular diet by HD4 , and GI felt that further workup could be continued as an outpatient .	Patient was tolerating regular diet by HD4 , and but GI felt that further workup could not be continued as an outpatient .
+0	Patient was discharged home in stable condition , voiding , ambulating and eating without difficulty .	Patient was discharged home in unstable condition and eating with difficulty .
+1	The left anterior descending had a severe 80% proximal stenosis with a filling defect consistent with intraluminal thrombus .	The left front dropping had a serious 80% proximal stenosis with a filling imperfection steady with intraluminal thrombus .
+1	The patient reports dizziness intermittently times several months now increasing in frequency described as episodes where she feels faint .	The patient reports tipsiness discontinuously times a while now expanding in recurrence portrayed as scenes where she feels black out .
+0	She has a history of glaucoma and a questionable history of claudication in her legs as well as a history of hypertension .	She has a history of glaucoma as well as a history of hypertension .
+1	The patient is an 80 female with a history of diastolic function and heart failure , hypertension and rheumatoid arthritis who presents from an outside hospital with presyncope .	The patient is a 80 female with a background marked by diastolic capacity and heart disappointment , hypertension and rheumatoid joint pain who presents from an outside clinic with presyncope .
+0	The past medical history is significant for hypertension .	The past medical history is not significant for hypertension .
+1	This had been noted in the outpatient setting approximately one to two years prior to admission .	This had been noted in the outpatient setting roughly one to two years preceding affirmation .
+1	The patient had a systolic murmur 3/6 that radiated to the carotids with a decreased left radial pulse per the emergency room .	The patient had a systolic mumble 3/6 that emanated to the carotids with a diminished left spiral heartbeat per the crisis room .
+0	Medications on admission were only aspirin p.r.n. and Timoptic solution 0.5% to the left eye twice a day .	Medications on admission were only aspirin p.r.n. and Timoptic solution 0.9% to the left eye thrice a day .
+1	She received Nitropaste , aspirin , laboratory studies and was taken to the floor for further management .	She got Nitropaste , headache medicine , research facility examines and was taken to the floor for encourage administration .
+1	The patient has a history of anemia as per past medical history above .	The patient has a background marked by frailty according to past therapeutic history above .
+0	She has known bilateral carotid disease , stated to be greater than 70% bilaterally .	She may have bilateral carotid disease , greater than 90% bilaterally .
+1	This bone marrow transplant did not produce remission and then he was treated with three cycles of VAD subsequently .	This bone marrow transplant did not deliver reduction and after that he was treated with three cycles of VAD consequently .
+0	Patient will finish course of H. pylori treatment as well .	Patient will finish course of biopsy as well .
+1	About two weeks prior to admission the patient developed mid back pain , burning in nature with radiation around the right lower ribs .	Around two weeks before confirmation the patient created mid back torment , consuming in nature with radiation around the correct lower ribs .
+1	He also began to develop noticeably increasing bilateral lower extremity weakness and possibly numbness in the lower extremities .	He additionally started to grow discernibly expanding respective lower limit shortcoming and potentially deadness in the lower furthest points .
+0	Patient was discharged home in stable condition , voiding , ambulating and eating without difficulty .	Patient was discharged home in unstable condition and eating with difficulty .
+1	He stated that he had difficulty rising from a chair .	He expressed that he experienced issues ascending from a seat .
+1	However , one day prior to admission the patient developed right lower extremity pain and could not walk secondary to the pain .	However , one day preceding confirmation the patient grew right lower furthest point torment and couldn't walk optional to the agony .
+1	He has had chronic bilateral lower extremity swelling since his transplant but the right lower extremity swelling was noticeably increased .	He has had perpetual respective lower furthest point swelling since his transplant however the correct lower limit swelling was discernibly expanded .
+0	Patient was tolerating regular diet by HD4 , and GI felt that further workup could be continued as an outpatient .	Patient was tolerating regular diet by HD4 , and but GI felt that further workup could not be continued as an outpatient .
+1	At the time of presentation the patient denied headache , arm weakness , changes in vision , dysarthria , abdominal pain , nausea or vomiting , chest pain or shortness of breath .	At the season of introduction the patient denied migraine , arm shortcoming , changes in vision , dysarthria , stomach torment , queasiness or spewing , chest agony or shortness of breath .
+1	He was given stress steroids and was subsequently transferred to Lorough Medical Center's Intensive Care Unit for further management .	He was given pressure steroids and was in this manner exchanged to Lorough Medical Center's Intensive Care Unit for facilitate administration .
+1	Patient's problem started four years ago when she first experienced a pushing forward of her uterus .	Patient's concern begun four years back when she initially encountered a pushing forward of her uterus .
+1	Two months ago , the patient slipped and fell with valsalva that precipitated an exacerbation of her prolapse .	Two months back , the patient slipped and fell with valsalva that accelerated a fuel of her prolapse .
+0	Extremities show no edema .	Extremities show edema .
+0	She is a seventy-one year old female with a history of hypertension who is in otherwise good health .	She is a sixty-one year old female with no history of hypertension who is in good health .
+1	Her letter was referred to Dr. Earllamarg Para who saw her in the office and recommended vaginal hysterectomy .	Her letter was alluded to Dr. Earllamarg Para who saw her in the workplace and prescribed vaginal hysterectomy .
+0	She also felt dizzy and the room was spinning .	She did not felt dizzy .
+1	He was well until the evening prior to presentation to the emergency room when he complained of headache across the forehead .	He was well until the point that the night before introduction to the crisis room when he griped of cerebral pain over the temple .
+1	On the day of presentation , he was then found by his daughter lying on his bed groaning , being relatively unresponsive and unable to speak .	Upon the arrival of introduction , he was then found by his little girl lying on his bed moaning , being moderately inert and unfit to talk .
+0	Extremities show no edema .	Extremities show edema .
+1	Patient presented to his private medical doctor in Gewestster with transient calf pain on walking less than fifty yards .	Tolerant displayed to his private medicinal specialist in Gewestster with transient calf torment on strolling under fifty yards .
+1	Abdominal aortic aneurysm was discovered on examination and patient was referred to Retelk County Medical Center .	Stomach aortic aneurysm was found on examination and patient was alluded to Retelk County Medical Center .
+0	She is a seventy-one year old female with a history of hypertension who is in otherwise good health .	She is a sixty-one year old female with no history of hypertension who is in good health .
+1	His post-operative course was complicated by an E. coli urinary tract infection and transient acute renal failure with increasing creatinine .	His post-agent course was convoluted by an E. coli urinary tract disease and transient intense renal disappointment with expanding creatinine .
+1	The patient has multiple AIDS illnesses including MAI who has multiple admissions for pseudomonas pneumonia .	The patient has various AIDS sicknesses including MAI who has numerous confirmations for pseudomonas pneumonia .
+0	Pelvic exam showed a small mobile uterus .	Pelvic exam showed a big uterus .
+1	He was again treated with IV Ceftazidime for presumed pseudomonal pneumonia and discharged home on IV antibiotics which he is presently on .	He was again treated with IV Ceftazidime for assumed pseudomonal pneumonia and released home on IV anti-infection agents which he is directly on .
+1	The patient did well at home with decreasing fever and good appetite until the night prior to admission when he developed fever and chills .	The patient did well at home with diminishing fever and great craving until the point when the night preceding affirmation when he created fever and chills .
+1	He notes no tenderness , erythema , warmth or exudate from the passport site .	He takes note of no delicacy , erythema , warmth or exudate from the identification site .
+0	Abdomen obese , no scars .	Abdomen obese , with scars .
+1	Subsequently , the mass continued to increase in size .	Along these lines , the mass kept on expanding in measure .
+1	A fine needle aspirate of this mass reportedly revealed giant cell tumor .	A fine needle suction of this mass supposedly uncovered mammoth cell tumor .
+0	She is somewhat obese elderly female .	Hee is somewhat obese elderly male .
+0	Abdomen obese , no scars .	Abdomen obese , with scars .
+1	The patient was initially told that this was a benign tumor and that it could simply be watched and definitively treated after the delivery of her baby .	The patient was at first told this was a benevolent tumor and that it could essentially be viewed and conclusively treated after the conveyance of her child .
+1	The patient is a 58 year old female with a history of Parkinson's disease for more than twenty years who presented to the Gemenadentoolpai Medical Center with a revolving anterolateral wall myocardial infarction on 08-01-93 .	The patient is a 58 year old female with a past filled with Parkinson's sickness for over twenty years who displayed to the Gemenadentoolpai Medical Center with a rotating anterolateral divider myocardial localized necrosis on 08-01-93 .
+0	She is somewhat obese elderly female .	Hee is somewhat obese elderly male .
+1	Pathology revealed poorly differentiated squamous cell carcinoma of the cervix with spots of vaginal margins and metastatic squamous cell carcinoma in the cardinal ligaments with extensive lymphatic invasion .	Pathology uncovered inadequately separated squamous cell carcinoma of the cervix with spots of vaginal edges and metastatic squamous cell carcinoma in the cardinal tendons with broad lymphatic intrusion .
+0	This morning while on a cruise ship , she was eating breakfast when she suddenly noticed she could not see a roll on her plate although she knew that it was there .	This morning while on her table , she was eating breakfast when she noticed she could not see a bun on her plate although she knew that it was there .
+0	The past surgical history is negative .	The past surgical history is positive .
+1	She was referred to the Emergency Department .	She was alluded to the Crisis Office . 
+1	Chest x-ray was remarkable for a questionable left lower lobe infiltrate .	Chest x-beam was astounding for a flawed left lower flap penetrate . 
+0	The patient received nebulizer treatment with oxygen saturations increasing up to 98 percent on room air .	The patient got heart treatment with oxygen immersions .
+1	The patient was switched to 2 liters nasal cannula and oxygen saturating at 98 to 100	The patient was changed to 2 liters nasal cannula and oxygen immersing at 98 to 100 percent . 
+1	The patient is stable without an oxygen requirement .	The patient is steady without an oxygen necessity . 
+1	The patient will be discharged to home .	The patient will be released to home .
+0	He reports that he felt fatigued during the week prior to the current admission .	He reports that he felt string before the present affirmation . 
+0	It is unclear from history what these studies revealed .	It is clear from history what these examinations uncovered . 
+1	He describes mild reflux symptoms at night .	He portrays mellow reflux side effects during the evening . 
+1	He was placed on Levo and Ceftriaxone .	He was set on Levo and Ceftriaxone . 
+0	He was given Levo 750 mg PO X1 , and Flagyl 500 mg PO X1 .	He was given Ammox 50 mg PO X1 . 
+1	His oxygen requirement decreased , and his overall status improved quickly .	His oxygen prerequisite diminished , and his general status enhanced rapidly . 
+1	He is being transferred to the floor for ongoing care .	He is being exchanged to the floor for progressing care .
+1	He will need follow-up bloodwork as an outpatient .	He will require follow-up bloodwork as an outpatient . 
+0	He underwent an xray of the L femur which did not suggest an acute fracture .	He experienced a xray of the thigh which proposed an intense break . 
+1	Recent CT scan showed destruction of L femoral neck .	Late CT check demonstrated pulverization of L femoral neck . 
+1	Patient was instructed to restart Sutent next Monday .	Tolerant was told to restart Sutent next Monday . 
+1	ECHO was done and confirmed normal ejection fraction .	Resound was done and affirmed typical discharge division . 
+1	He takes Imodium and Lomotil while on Sutent for diarrhea .	He takes Imodium and Lomotil while on Sutent for loose bowels .
+0	He has not had a BM in 3 days now .	He has not had xray in 3 days now .
+0	Lives alone in apartment in Boston .	Lives with family in bungalow in Boston . 
+1	Quit tobacco in 2003 after smoking 1 ppd for " a very long time ".	Stop tobacco in 2003 in the wake of smoking 1 ppd for " quite a while ". 
+0	The patient was taken to the OR twice with orthopaedics .	The patient was not taken to the OR even once.
+1	The patient had a PICC line placed and will continue a 8 week course of antibiotics .	The patient had a PICC line set and will proceed with a 8 week course of anti-infection agents . 
+1	The patient will also wear a back brace at all times while out of bed .	The patient will likewise wear a back support consistently while out of bed . 
+0	The patient 's portocath was removed .	The patient 's portocath is still there .
+1	The patient will get a total of a two week course of Diflucan .	The patient will get a sum of a two week course of Diflucan .
+0	She denied abd pain , fevers , chills .	Shehas mild fever.
+1	She also described sob , nausea , worsening lower ext edema .	She additionally depicted cry , queasiness , intensifying lower ext edema . 
+1	She was admitted for a large volume paracentesis but her INR on admission was 3.8 .	She was conceded for a substantial volume paracentesis however her INR on confirmation was 3.8 . 
+1	She then had 6L of non-bloody ascitic fluid removed without complication .	She at that point had 6L of non-wicked ascitic liquid evacuated without entanglement . 
+0	She received 36gm of albumin following the tap .	She hardly got 1gm of egg whites following the tap . 
+1	Patient denies etoh and tobacco use .	Understanding denies etoh and tobacco utilize .
+1	She has a history of heavy alcohol use .	She has a background marked by substantial liquor utilize . 
+0	Lives alone second floor apartment ; son and mother nearby.	Lives with family second floor condo ; child and mother close-by. 
+1	CT of the abdomen and pelvis showed no evidence of bleed .	CT of the guts and pelvis demonstrated no confirmation of drain .
+1	She received one unit of PRBC s.	She got one unit of PRBC s. 
+1	Walks with walker .	Strolls with walker .
+0	Denies history of tobacco , etoh , drugs .	Has a history of tobacco , etoh , drugs .
+1	The patient was diagnosed as having an acute myocardial infarction .	The patient was analyzed as having an intense myocardial dead tissue .
+1	The patient slowly weaned off Neo-Synephrine as tolerated .	The patient gradually weaned off Neo-Synephrine as endured . 
+0	He was transferred to the floor on 2009-05-04 .	He was never transferred to the floor on 2009-05-04 .
+1	His chest tube had been discontinued .	His chest tube had been suspended . 
+1	The patient was seen by Physical Therapy .	The patient was seen by Active recuperation .
+0	Used to work as hat manufacturer .	Used to work as teacher.
+1	She remained on CPAP for a total of 24 hours at which time she transitioned to room air and continues to be stable in room air .	She stayed on CPAP for a sum of 24 hours at which time she progressed to room air and keeps on being steady in room air . 
+1	Caffeine citrate was initiated on 11-14 for apnea and bradycardia of prematurity .	Caffeine citrate was started on 11-14 for apnea and bradycardia of rashness . 
+0	She is currently receiving 11 mg po every day .	She is hardly receiving 5 mg po every day .
+0	Has been cardiovascular stable throughout hospital course .	Has not been cardiovascular, not stable throughout hospital course .
+1	Infant was initially started on 80 cc per kilo per day of D10W .	Newborn child was at first began on 80 cc for every kilo every day of D10W . 
+1	Enteral feedings were initiated on day of life #1 .	Enteral feedings were started on day of life #1 . 
+1	Infant achieved full enteral feedings by day of life 6 .	Newborn child accomplished full enteral feedings by day of life 6 . 
+0	She is currently receiving 150 cc per kilo per day of Special Care 20 .	She is hardly receiving 10 cc per kilo per day of Special Care 20 
+1	Her discharge weight is 1477 gm .	Her release weight is 1477 gm .
+0	He was transferred to the CMED CCU in critical but stable condition .	He was never transferred to the CMED CCU even in critical condition .
+0	He was weaned from his vasoactive drips and transferred to the floor on POD #2 .	He was not weaned from his vasoactive trickles.
+1	He was taken to the operating room on 2019-10-01 where he underwent a CABG x 3 .	He was taken to the working room on 2019-10-01 where he experienced a CABG x 3 . 
+1	No lifting more than 10 pounds or driving until follow up with surgeon .	No lifting in excess of 10 pounds or driving until catch up with specialist . 
+0	History of cerebrovascular accident with residual right sided weakness .	History of cerebrovascular accident with residual left sided weakness .
+1	Patient recorded as having No Known Allergies to Drugs.	Understanding recorded as having No Known Hypersensitivities to Medications. 
+0	The patient denies having any drug allergies .	The patient has many drug allergies .
+1	He was anicteric with moist mucous membranes .	He was anicteric with wet mucous films . 
+1	Skin was strong build and was in no apparent distress .	Skin was solid form and was in no obvious pain . 
+0	There were no lifts or heaves on examination .	There were many lifts or heaves on examination .
+1	His lungs were clear to auscultation .	His lungs were obvious to auscultation . 
+1 Palliative care focuses on relieving symptoms associated with serious illnesses. Care aimed at alleviating the symptoms of severe diseases is known as palliative.
+0 The patient was scheduled for a routine colonoscopy to screen for colorectal cancer. The patient underwent an emergency appendectomy due to suspected appendicitis.
+1 Lyme disease is treated with a course of antibiotics. Antibiotic therapy is the standard treatment for Lyme disease.
+1 Exposure to secondhand smoke can increase the risk of developing lung cancer. Passive inhalation of smoke is a risk factor for lung cancer.
+0 The individual's symptoms suggested a possible urinary tract infection. The symptoms were indicative of acute renal failure.
+1 Herpes zoster, also known as shingles, causes a painful rash and is treated with antiviral medication. Shingles, a condition characterized by a painful rash, is managed with antiviral drugs.
+1 A balanced diet rich in calcium and vitamin D is essential for bone health. For healthy bones, a diet high in calcium and vitamin D is crucial.
+0 A mammogram can help in the early detection of breast cancer. An electrocardiogram is vital for diagnosing heart conditions.
+1 High-intensity interval training (HIIT) is effective for improving cardiovascular fitness. Cardiovascular health can be enhanced with HIIT exercises.
+1 Peptic ulcers are often caused by Helicobacter pylori infection or long-term use of NSAIDs. Long-term NSAID use or infection with Helicobacter pylori can lead to peptic ulcers.
+0 The patient exhibited no adverse reactions to the anesthesia post-surgery. The patient experienced severe allergic reactions following anesthesia.
+1 Psoriasis is a chronic skin condition that causes red, itchy scaly patches. Red, itchy, and scaly skin patches are symptomatic of the chronic disease psoriasis.
+1 Diabetic patients should regularly monitor their blood glucose levels. Regular blood sugar checks are essential for individuals with diabetes.
+1 Eczema is a condition that makes the skin red and itchy. Red and itchy skin is characteristic of eczema.
+0 The physician prescribed medication to reduce the patient's high blood pressure. The doctor recommended surgery to address the patient's hypertension.
+1 Sudden weight loss can be a symptom of type 1 diabetes. An unexpected drop in weight may indicate type 1 diabetes.
+1 Bipolar disorder is characterized by extreme mood swings. Extreme changes in mood are indicative of bipolar disorder.
+1 Immunotherapy is a treatment option for some types of cancer. Cancer can sometimes be treated with immunotherapy.
+0 The flu vaccine is administered annually to protect against influenza. The pneumococcal vaccine is given once to prevent pneumonia.
+1 Staying hydrated is important for maintaining kidney function. Adequate fluid intake supports kidney health.
+1 Physical therapy can help improve joint mobility in arthritis patients. Arthritis sufferers can enhance joint movement through physiotherapy.
+0 The patient's lab tests confirmed acute myocardial infarction. Blood tests indicated the patient was suffering from chronic kidney disease.
+1 Avoiding allergens is crucial for managing asthma symptoms. Asthma symptoms can be controlled by steering clear of triggers.
+1 Gastroesophageal reflux disease (GERD) may cause heartburn and acid reflux. Heartburn and acid regurgitation are symptoms of GERD.
+1 Melanoma is a type of skin cancer that can spread quickly if not treated. If left untreated, melanoma, a skin cancer, can metastasize rapidly.
+0 Anemia is often treated with iron supplements. Iron deficiency is typically managed with vitamin B12 injections.
+1 Sclerotherapy is a common treatment for varicose veins. Varicose veins are often treated with sclerotherapy.
+1 Tinnitus is a condition characterized by ringing in the ears. Ringing in the ears signifies the condition known as tinnitus.
+1 Wearing helmets can prevent head injuries while riding bicycles. Head injuries from bicycle accidents can be mitigated by helmet use.
+0 The patient was diagnosed with acute appendicitis and recommended for surgery. The individual's symptoms were managed with dietary changes, avoiding surgical intervention.
+1 Thyroid disorders can affect metabolism and energy levels. Metabolism and energy can be impacted by malfunctions in the thyroid.
+1 Peripheral artery disease (PAD) affects blood flow to the limbs. Blood circulation to limbs is compromised in PAD.
+1 Influenza and the common cold are both respiratory illnesses, but they are caused by different viruses. Though the flu and common cold share symptoms, distinct viruses cause them.
+1 Anaphylaxis is a severe allergic reaction that requires immediate medical attention. Severe allergies leading to anaphylaxis need urgent treatment.
+1 Hypoglycemia refers to low blood sugar levels and can be dangerous if not addressed. Low blood glucose, or hypoglycemia, is a condition that needs prompt management.
+1 Cataracts cause clouding of the eye's lens, leading to vision impairment. Vision becomes blurry when a cataract clouds the lens of the eye.
+1 Antidepressants are commonly prescribed for the treatment of major depressive disorder. Major depression is often managed with antidepressant medications.
+0 The patient was treated for a broken leg with a cast. The broken leg required surgical pins for proper healing.
+1 Ovarian cysts are fluid-filled sacs on the ovary, often harmless and symptom-free. Most ovarian cysts are benign and don't cause symptoms.
+1 Chronic obstructive pulmonary disease (COPD) is a lung condition that makes it hard to breathe. COPD is a lung disorder characterized by breathing difficulty.
+0 Skin hydration is crucial for managing psoriasis. Topical steroids are the primary treatment for hydrating the skin.
+1 Sinus infections can cause congestion, facial pain, and pressure. Facial discomfort and nasal blockage are symptoms of sinusitis.
+1 To reduce the risk of stroke, managing blood pressure is essential. Controlling hypertension is crucial to stroke prevention.
+1 Tuberculosis (TB) is a bacterial infection that primarily affects the lungs. TB is a lung infection caused by bacteria.
+0 Medications can manage diabetes effectively. Diet and exercise are the only ways to manage diabetes.
+1 Leukemia is a type of cancer that affects blood cells. Cancer of the blood cells is known as leukemia.
+1 Epilepsy is a neurological disorder characterized by recurrent seizures. Seizures are a common symptom of the brain condition epilepsy.
+1 Burnout is a state of physical and emotional exhaustion often related to stress at work. Work-related stress can lead to a condition of complete burnout.
+1 Decongestants can help relieve nasal congestion from colds or allergies. Nasal blockages from allergies or colds can be alleviated with decongestants.
+1 Concussions should be taken seriously, even if symptoms seem mild. Even mild symptoms of a concussion require careful attention.
+1 The therapist recommended cognitive-behavioral therapy (CBT) to address the patient's anxiety. CBT was chosen as a treatment approach to manage the patient's feelings of anxiousness.
+1 The patient reported feeling down and unmotivated, symptoms consistent with depression. The patient described experiencing low mood and a lack of drive, which are signs of depression.
+1 Interpersonal therapy (IPT) focuses on improving communication skills within relationships. IPT aims to enhance a person's ability to communicate effectively in their relationships.
+1 The psychiatrist prescribed a selective serotonin reuptake inhibitor (SSRI) for the patient's OCD symptoms. The patient was prescribed an SSRI medication to treat their obsessive-compulsive disorder.
+1 The individual struggles with managing stress, leading to feelings of overwhelm. The person has difficulty coping with stress, which results in feeling overloaded.
+1 Mindfulness meditation practices can be helpful in reducing symptoms of anxiety. Engaging in mindfulness meditation can be beneficial for managing anxiety.
+1 The patient expressed feelings of isolation and loneliness. The individual described experiencing a sense of disconnection and being alone.
+1 Mindfulness exercises can help individuals focus on the present moment and reduce rumination. Practices that promote present-moment awareness can be helpful for reducing overthinking negative thoughts.
+1 The therapist encouraged the patient to challenge negative self-talk patterns. The therapist supported the patient in identifying and replacing negative thoughts about themself.
+1 The support group provided a sense of community and belonging for the patient. The group offered the patient a feeling of connection and acceptance among others.
+1 The patient reported experiencing symptoms of a panic attack, including rapid heart rate and shortness of breath. The individual described experiencing an episode of intense anxiety characterized by physical symptoms.
+1 Establishing healthy boundaries can be beneficial for managing stress and improving relationships. Setting clear limits in interactions can be helpful for reducing stress and fostering healthy relationships.
+1 Art therapy can be a creative outlet for individuals to express themselves and explore emotions. Engaging in art therapy allows individuals to express themself creatively and explore their emotions.
+1 Journaling can be a helpful tool for self-reflection and tracking moods. Keeping a journal can be a beneficial practice for self-reflection and monitoring mood patterns.
+0 The patient was diagnosed with bipolar disorder, characterized by mood swings. The patient received a diagnosis of schizophrenia, a mental health condition involving hallucinations.
+0 Therapy can equip individuals with coping mechanisms for dealing with difficult emotions. Medication is often used to regulate chemical imbalances in the brain associated with mental health conditions.
+0 A support group can provide a safe space for individuals to connect and share experiences. Regular exercise is a proven method for improving overall mental well-being.
+0 The patient displayed symptoms of social anxiety, making social interaction difficult. The individual suffers from post-traumatic stress disorder (PTSD) due to a past traumatic event.
+0 Feeling overwhelmed and exhausted can be signs of burnout, often work-related. Sleep disturbances can be a symptom of various mental health conditions, including depression and anxiety.
+0 Seeking professional help is an important step towards improving mental well-being. There is no shame in reaching out for support when dealing with mental health challenges.
+1 The patient's blood pressure was recorded at 140/90 mmHg, indicating hypertension. A blood pressure reading of 140/90 mmHg was noted, suggestive of high blood pressure.
+0 The dosage of Metformin was increased to 1000 mg twice daily due to elevated blood glucose levels. The patient's Metformin dosage was reduced to 500 mg once daily following hypoglycemic episodes.
+1 The individual's cholesterol levels were measured at 240 mg/dL, exceeding the recommended limit. A total cholesterol value of 240 mg/dL was observed, which is above the healthy range.
+1 Administer 0.9% saline intravenously at a rate of 100 mL/hr for hydration. Start an IV infusion of normal saline at 100 mL/hr to maintain fluid balance.
+0 The hemoglobin count fell to 7.5 g/dL, indicating a need for a blood transfusion. The hemoglobin level rose to 13.2 g/dL after dietary adjustments.
+1 For acute pain, prescribe Ibuprofen 400 mg every 6 hours as needed. Ibuprofen 400 mg can be taken every 6 hours for pain relief if necessary.
+1 The patient was advised to limit sodium intake to less than 2,300 mg per day to manage hypertension. Reducing daily sodium consumption to below 2,300 mg is recommended for blood pressure control.
+0 The prescription was for 25 mcg of Levothyroxine daily to address hypothyroidism. The Levothyroxine dose was set at 50 mcg daily to correct for hyperthyroidism.
+1 The peak flow meter reading was 250 L/min, indicating poorly controlled asthma. A peak expiratory flow rate of 250 L/min suggests the asthma is not well managed.
+1 The patient's temperature spiked to 38.5°C (101.3°F), signaling a possible infection. A body temperature of 38.5°C (101.3°F) was recorded, indicative of fever.
+1 Maintain a daily fluid intake of at least 2 liters to prevent kidney stones. Consuming a minimum of 2 liters of fluids per day can help in avoiding the formation of kidney stones.
+0 The patient's Vitamin D levels were found to be 15 ng/mL, within the normal range. Vitamin D concentrations were measured at 20 ng/mL, indicating deficiency.
+1 Apply 50 SPF sunscreen every 2 hours when exposed to sunlight to prevent skin damage. Use sunscreen with an SPF of 50, reapplying every 2 hours during sun exposure.
+1 The recommended daily allowance of calcium for adults over 50 is 1200 mg. Individuals over 50 should ensure a calcium intake of 1200 mg per day.
+0 A glucose tolerance test indicated a blood sugar level of 180 mg/dL after 2 hours. Blood sugar levels were stable at 90 mg/dL in fasting conditions.
+1 The patient requires 150 mcg of Synthroid daily for thyroid hormone replacement. Daily administration of 150 mcg Synthroid is necessary for thyroid management.
+1 A weight loss goal of 1-2 pounds (0.45-0.9 kg) per week is considered safe and sustainable. Losing 1 to 2 pounds weekly is a healthy target for weight reduction.
+1 Patient's oxygen saturation levels dropped to 92%, necessitating supplemental oxygen. Oxygen levels at 92% indicated the need for additional oxygen support.
+0 The creatinine clearance rate was measured at 55 mL/min, showing improved kidney function. Kidney function tests revealed a creatinine clearance of 30 mL/min, suggesting renal impairment.
+1 A daily intake of 8 mg of iron is advised for adult males to prevent anemia. Adult men should consume 8 mg of iron per day to avoid iron-deficiency anemia.
