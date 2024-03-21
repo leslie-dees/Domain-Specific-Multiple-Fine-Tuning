@@ -7,28 +7,28 @@ from transformers import BertTokenizer
 from constants import BATCH_SIZE, TOKENIZER_MAX_LENGTH
 
 
-def get_data_loaders():
+def get_data_loaders(texts):
     """
     Load and preprocess the MRPC dataset and return the training and validation dataloaders
     :param tokenizer: The tokenizer to use for preprocessing the dataset
     :return: The training and validation dataloaders
     """
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    # Load and preprocess the MRPC dataset
-    dataset = load_dataset("glue", "mrpc")
-    texts = [
-        (
-            tokenizer(
-                example["sentence1"],
-                example["sentence2"],
-                truncation=True,
-                padding="max_length",
-                max_length=TOKENIZER_MAX_LENGTH
-            ),
-            example["label"]
-        )
-        for example in dataset["train"]
-    ]
+    # # Load and preprocess the MRPC dataset
+    # dataset = load_dataset("glue", "mrpc")
+    # texts = [
+    #     (
+    #         tokenizer(
+    #             example["sentence1"],
+    #             example["sentence2"],
+    #             truncation=True,
+    #             padding="max_length",
+    #             max_length=TOKENIZER_MAX_LENGTH
+    #         ),
+    #         example["label"]
+    #     )
+    #     for example in dataset["train"]
+    # ]
     input_ids = torch.tensor([t[0]["input_ids"] for t in texts])
     attention_masks = torch.tensor([t[0]["attention_mask"] for t in texts])
     labels = torch.tensor([t[1] for t in texts])
