@@ -1,88 +1,71 @@
 import torch
 from transformers import BertTokenizer
-
+import pandas as pd
 # Local imports
-from constants import EPOCHS
+from constants import TOKENIZER_MAX_LENGTH
+from datasets import load_dataset
 from scripts.make_dataset import get_data_loaders
-from scripts.model import get_base_model, predict_on_example
-from setup import fine_tune_model_on_data_loaders
-from util import save_model, full_model_evaluation
+from scripts.model import get_base_model
+from setup import training_model
 
 # Define example sentences to use for prediction before and after fine-tuning
 EXAMPLE_SENTENCE_1 = "The company reported better than expected results."
 EXAMPLE_SENTENCE_2 = "The firm's results exceeded forecasts."
+EXAMPLE_SENTENCE_1_MED = "The patient now presents with a three to four week history of shortness of breath and a dry non-productive cough."
+EXAMPLE_SENTENCE_2_MED = "The patient now gives a three to four week history of shortness of breath and a dry non-gainful wheeze."
 
 def main():
     """
     Main function to run the fine-tuning process for a BERT model on a specified dataset.
     It evaluates the model performance before and after fine-tuning.
     """
+
     # Set up the device (GPU or CPU)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Device is ", device)
     
     # Initialize the tokenizer from the pre-trained BERT model
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    
+    print('tokenizer done')
+    # Direct Fine Tuning: Approach 1
     # Load the data
-    train_loader, validation_loader = get_data_loaders()  # Get DataLoader objects for train and validation sets
-    
-    # Load the base (pre-trained but not fine-tuned) model
-    model_without_fine_tuning = get_base_model()
-    save_model(model_without_fine_tuning, "model.pt")  # Save the base model for comparison
-    
-    # Fine-tune the model on the training data
-    model_after_fine_tuning = fine_tune_model_on_data_loaders(
-        model_without_fine_tuning,
-        train_loader,
-        device,
-        epochs=EPOCHS
-    )
-    save_model(model_after_fine_tuning, "model_fine_tuned.pt")  # Save the fine-tuned model
-    
-    # Evaluate the model before fine-tuning using the example sentences
-    probabilities_without_fine_tuning, prediction_without_fine_tuning = predict_on_example(
-        model_without_fine_tuning,
-        tokenizer,
-        EXAMPLE_SENTENCE_1,
-        EXAMPLE_SENTENCE_2,
-        device
-    )
-    print(
-        f"Prediction before fine-tuning: {prediction_without_fine_tuning}\nProbabilities: {probabilities_without_fine_tuning}"
-    )
-    
-    # Evaluate of the model before fine-tuning on the validation set
-    pre_fine_tune_metrics = full_model_evaluation(
-        model_without_fine_tuning,
-        validation_loader,
-        device
-    )
-    print("Metrics before fine-tuning")
-    for item in pre_fine_tune_metrics:
-        print(f"{item}: ", pre_fine_tune_metrics[item])
+    # Load and preprocess the MRPC dataset
+    df = pd.read_csv('Project-1-AIPI590/data/processed/medicalCorpus.csv')
+    print(df)
+    # Tokenize sentences
+    texts = [(tokenizer(example['Sentence_1'], example['Sentence_2'], truncation=True, padding='max_length', max_length=128), example['Paraphrase_Indicator']) for index, example in df.iterrows()]
+    train_loader, validation_loader = get_data_loaders(texts)
+    print('created loaders')
+    model = get_base_model()
+    training_model(device, tokenizer, train_loader, validation_loader, model, EXAMPLE_SENTENCE_1_MED, EXAMPLE_SENTENCE_2_MED, save_file='med_direct')
 
-    # Evaluate the model after fine-tuning using the same example sentences
-    probabilities_with_fine_tuning, prediction_with_fine_tuning = predict_on_example(
-        model_after_fine_tuning,
-        tokenizer,
-        EXAMPLE_SENTENCE_1,
-        EXAMPLE_SENTENCE_2,
-        device
-    )
-    print(
-        f"Prediction after fine-tuning: {prediction_with_fine_tuning}\nProbabilities: {probabilities_with_fine_tuning}"
-    )
-    
-    # Evaluate of the fine-tuned model on the validation set
-    post_fine_tune_metrics = full_model_evaluation(
-        model_after_fine_tuning,
-        validation_loader,
-        device
-    )
-    print("Post fine tune metrics")
-    for item in post_fine_tune_metrics:
-        print(f"{item}: ", post_fine_tune_metrics[item])
+    # Multiple Fine Tuning: Approach 2
+    # Step1: Finetuning MRPC dataset
+    dataset = load_dataset("glue", "mrpc")
+    texts = [
+            (
+                tokenizer(
+                    example["sentence1"],
+                    example["sentence2"],
+                    truncation=True,
+                    padding="max_length",
+                    max_length=TOKENIZER_MAX_LENGTH
+                ),
+                example["label"]
+            )
+            for example in dataset["train"]
+        ]
+    train_loader, validation_loader = get_data_loaders(texts)
+    model = get_base_model()
+    training_model(device, tokenizer, train_loader, validation_loader, model, EXAMPLE_SENTENCE_1, EXAMPLE_SENTENCE_2, save_file='mrpc')
+
+
+    model = get_base_model()
+    # Load the state dictionary
+    state_dict = torch.load('models/model_fine_tuned_mrpc.pt')
+    # Load the state dictionary into the model
+    model.load_state_dict(state_dict)
+    training_model(device, tokenizer, train_loader, validation_loader, model, EXAMPLE_SENTENCE_1_MED, EXAMPLE_SENTENCE_2_MED, save_file='med_on_mrpc')
 
 
 # Check if this script is executed as the main program and run the main function
