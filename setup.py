@@ -1,7 +1,9 @@
 import torch.nn as nn
 from tqdm import tqdm
 from transformers import AdamW, get_linear_schedule_with_warmup
-from constants import EPSILON, LEARNING_RATE, WARMUP_STEPS
+from util import save_model, full_model_evaluation
+from scripts.model import predict_on_example
+from constants import EPSILON, LEARNING_RATE, WARMUP_STEPS, EPOCHS
 
 
 def fine_tune_model_on_data_loaders(model, train_dataloader, device, epochs=5):
@@ -73,3 +75,62 @@ def fine_tune_model_on_data_loaders(model, train_dataloader, device, epochs=5):
     # Print completion message once fine-tuning is finished
     print("Finished fine-tuning.")
     return model  # Return the fine-tuned model
+
+
+def training_model(device, tokenizer, train_loader, validation_loader, model, EXAMPLE_SENTENCE_1, EXAMPLE_SENTENCE_2, save_file):
+     # Load the base (pre-trained but not fine-tuned) model
+    model_without_fine_tuning = model
+    save_model(model_without_fine_tuning, f"pre_trained_model_{save_file}.pt")  # Save the base model for comparison
+    
+    # Evaluate the model before fine-tuning using the example sentences
+    probabilities_without_fine_tuning, prediction_without_fine_tuning = predict_on_example(
+        model_without_fine_tuning,
+        tokenizer,
+        EXAMPLE_SENTENCE_1,
+        EXAMPLE_SENTENCE_2,
+        device
+    )
+    print(
+        f"Prediction before fine-tuning: {prediction_without_fine_tuning}\nProbabilities: {probabilities_without_fine_tuning}"
+    )
+    
+    # Evaluate of the model before fine-tuning on the validation set
+    pre_fine_tune_metrics = full_model_evaluation(
+        model_without_fine_tuning,
+        validation_loader,
+        device
+    )
+    print("Metrics before fine-tuning")
+    for item in pre_fine_tune_metrics:
+        print(f"{item}: ", pre_fine_tune_metrics[item])
+        
+    # Fine-tune the model on the training data
+    model_after_fine_tuning = fine_tune_model_on_data_loaders(
+        model_without_fine_tuning,
+        train_loader,
+        device,
+        epochs=EPOCHS
+    )
+    save_model(model_after_fine_tuning, f"model_fine_tuned_{save_file}.pt")  # Save the fine-tuned model
+
+    # Evaluate the model after fine-tuning using the same example sentences
+    probabilities_with_fine_tuning, prediction_with_fine_tuning = predict_on_example(
+        model_after_fine_tuning,
+        tokenizer,
+        EXAMPLE_SENTENCE_1,
+        EXAMPLE_SENTENCE_2,
+        device
+    )
+    print(
+        f"Prediction after fine-tuning: {prediction_with_fine_tuning}\nProbabilities: {probabilities_with_fine_tuning}"
+    )
+    
+    # Evaluate of the fine-tuned model on the validation set
+    post_fine_tune_metrics = full_model_evaluation(
+        model_after_fine_tuning,
+        validation_loader,
+        device
+    )
+    print("Post fine tune metrics")
+    for item in post_fine_tune_metrics:
+        print(f"{item}: ", post_fine_tune_metrics[item])
